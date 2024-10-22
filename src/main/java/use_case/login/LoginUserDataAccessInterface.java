@@ -27,4 +27,9 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Saves the user.
+     * @param name the name of the new user.
+     */
+    void setCurrentUser(String name);
 }
